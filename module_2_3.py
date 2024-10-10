@@ -3,5 +3,9 @@ i = 0
 while my_list[i] >= 0 and i < len(my_list):
     if my_list[i] != 0:
         print(my_list[i])
+# второй способ
+    # if my_list[i] == 0:
+    #     pass
+    # else:
+    #     print(my_list[i])
     i += 1
-    
